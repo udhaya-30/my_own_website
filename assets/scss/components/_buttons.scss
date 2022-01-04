@@ -11,6 +11,7 @@
     display: inline-block;
     
     &-primary  {
+        @extend .btn;
         background-color: #3f43fd;
         color: white;
         &:hover{

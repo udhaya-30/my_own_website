@@ -9,6 +9,7 @@
 
 // utilities
 @import "./utilities/animations";
+@import "./utilities/spacing";
 
 
 // components
@@ -16,6 +17,12 @@
 
 // layouts
 @import "./layouts/header";
+
+@import "./layouts/background_elements";
+@import "./pages/home";
+
+// badges
+@import "./components/badges";
 
 
 

@@ -1,0 +1,139 @@
+.background-shapes{
+    .box1{
+        position: absolute;
+        top:20%;
+        left: 10%;
+        border-radius: 0.35rem;
+        width: 15px;
+        height: 15px;
+        background-color: transparent;
+        border: 3px solid #3f43fd;
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+    .box2{
+        position: absolute;
+        top:80%;
+        left: 60%;
+        border-radius: 0.35rem;
+        width: 15px;
+        height: 15px;
+        background-color: transparent;
+        border: 3px solid #3f43fd;
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+    .box3{
+        position: absolute;
+        top:30%;
+        left:90%;
+        border-radius: 0.35rem;
+        width: 15px;
+        height: 15px;
+        background-color: transparent;
+        border: 3px solid #3f43fd;
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+    .dot1{
+        position: absolute;
+        top:77%;
+        left:6%;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        background-color:#3f43fd ;
+        
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+    .dot2{
+        position: absolute;
+        top:18%;
+        right:4%;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        background-color:#f4284a ;
+        
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+
+    .dot3{
+        position: absolute;
+        top:90%;
+        left:43%;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        background-color: #f428f4 ;
+        
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+    .dot4{
+        position: absolute;
+        top:91%;
+        right: 6%;
+        border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        background-color:red;
+        
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+    .heart1{
+        font-size: 1.5rem;
+        position: absolute;
+        top: 51%;
+        left: 12%;
+        z-index: -1;
+        color: #f4284a;
+        animation: box-shape linear 5s infinite;
+    }
+    .heart2{
+        font-size: 1.5rem;
+        position: absolute;
+        top: 55%;
+        right: 8%;
+        z-index: -1;
+        color: red;
+        animation: box-shape linear 5s infinite;
+    }
+    .circle1{
+        position: absolute;
+        top:80%;
+        left: 21%;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        // background-color: transparent;
+        border: 3px solid #f4284a;
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+    .circle2{
+        position: absolute;
+        top:25%;
+        left: 50%;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        // background-color: transparent;
+        border: 3px solid #f4284a;
+        z-index: -1;
+        transform: rotate(360deg);
+        animation: box-shape linear 5s infinite;
+    }
+  
+}
