@@ -1,0 +1,25 @@
+@use "../abstract/variable" as var;
+
+.btn{
+    padding: 0.8rem 1.6rem;
+    border-radius: 6px;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    display: inline-block;
+    
+    &-primary  {
+        background-color: #3f43fd;
+        color: white;
+        &:hover{
+            background-color: #3135e8;
+            transition: 300ms;
+            display: inline-block;
+            font-size: 1rem;
+        }
+
+    }
+
+}
