@@ -19,11 +19,17 @@
 @import "./layouts/header";
 
 @import "./layouts/background_elements";
-@import "./pages/home";
+
 
 // badges
 @import "./components/badges";
-@import "./pages/about"
+
+
+
+// paages
+@import "./pages/about";
+@import "./pages/home";
+@import "./pages/roadmap"
 
 
 
