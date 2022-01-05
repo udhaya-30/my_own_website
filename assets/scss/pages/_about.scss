@@ -1,0 +1,27 @@
+.about-area{
+    background-color: #3f43fd ;
+    padding: 8rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+    &--img{
+        width: 32rem;
+
+    }
+
+    &--contents{
+        color: #fff;
+
+        h2{
+            font-size: 3rem;
+
+        }
+        p{
+            line-height: 2;
+            color: #cfcfcf;
+            padding-right: 2rem;
+        }
+
+    }
+}

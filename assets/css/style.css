@@ -692,4 +692,22 @@ a {
     background-color: #3135e8;
     color: white; }
 
+.about-area {
+  background-color: #3f43fd;
+  padding: 8rem 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11rem; }
+  .about-area--img {
+    width: 32rem; }
+  .about-area--contents {
+    color: #fff; }
+    .about-area--contents h2 {
+      font-size: 3rem; }
+    .about-area--contents p {
+      line-height: 2;
+      color: #cfcfcf;
+      padding-right: 2rem; }
+
 /*# sourceMappingURL=style.css.map */
