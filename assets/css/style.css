@@ -540,6 +540,16 @@ a {
       display: inline-block;
       font-size: 1rem; }
 
+.form-control {
+  padding: 0.8rem 1.5rem;
+  width: 100%;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  outline: none; }
+  .form-control:focus {
+    border: 2px solid #3f43fd; }
+
 @use "../abstract/variable" as var;
 .header {
   padding: 1rem 20rem;
@@ -724,7 +734,7 @@ a {
     color: grey; }
 
 .roadmap {
-  padding: 8rem 20rem; }
+  padding: 8rem 20rem 6rem 20rem; }
   .roadmap--heading {
     text-align: center; }
   .roadmap h5 {
@@ -777,7 +787,7 @@ a {
       transition: 600ms;
       position: absolute;
       top: 35%;
-      right: -25%;
+      right: -20%;
       content: "";
       width: 70px;
       height: 70px;
@@ -789,10 +799,144 @@ a {
       line-height: 1; }
     .roadmap--item:hover:not(:last-child)::before {
       color: #3135e8;
-      right: -27%; }
+      right: -22%; }
     .roadmap--item:hover {
       filter: grayscale(0); }
     .roadmap--item:hover h5 {
       color: #3135e8; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.fa-code {
+  font-size: 2rem; }
+
+.grid {
+  display: grid;
+  gap: 1.5rem; }
+
+.container {
+  max-width: 768px; }
+
+.section {
+  padding: 2rem 0 4rem; }
+  .section h2 {
+    display: block;
+    font-size: 2rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; }
+  .section__title {
+    text-align: center; }
+  .section__subtitle {
+    text-align: center;
+    margin-bottom: 4rem; }
+
+.skills {
+  background: white; }
+  .skills__container {
+    row-gap: 0; }
+  .skills__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5px;
+    cursor: pointer; }
+  .skills__brace {
+    margin-right: 30px;
+    color: #57e0be; }
+  .skills__server {
+    margin-right: 30px;
+    font-size: 2rem;
+    color: #57e0be; }
+  .skills__title {
+    font-weight: 600;
+    font-size: 1.5rem; }
+  .skills__arrow {
+    margin-left: auto;
+    color: #57e0be;
+    font-size: 1.5rem; }
+  .skills__open, .skills__list {
+    height: max-content;
+    margin-bottom: 30px; }
+  .skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px; }
+  .skills__bar {
+    background-color: #b6fcea;
+    height: 5px;
+    border-radius: 0.25rem; }
+  .skills__percentage {
+    display: block;
+    background-color: #57e0be;
+    height: 5px;
+    border-radius: 0.25rem; }
+  .skills__html {
+    width: 95%; }
+  .skills__css {
+    width: 80%; }
+  .skills__js {
+    width: 85%; }
+  .skills__react {
+    width: 85%; }
+  .skills__angular {
+    width: 85%; }
+  .skills__data {
+    padding: 1rem; }
+  .skills__php {
+    width: 80%; }
+  .skills__firebase {
+    width: 80%; }
+  .skills__python {
+    width: 86%; }
+
+#btn, #btn_2 {
+  padding: 1rem; }
+
+#list, #list_2 {
+  padding: 1rem; }
+
+.iframe-area {
+  background-color: #3f43fd;
+  padding: 8rem 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11rem; }
+  .iframe-area--img {
+    width: 32rem; }
+  .iframe-area--contents {
+    color: #fff; }
+    .iframe-area--contents h2 {
+      font-size: 2.5rem; }
+    .iframe-area--contents p {
+      line-height: 2;
+      color: #cfcfcf;
+      padding-right: 2rem; }
+
+.contact {
+  padding: 8rem 20rem;
+  background-color: #e0e0e0; }
+  .contact-card {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+    padding: 2rem 3rem; }
+    .contact-card--contents {
+      flex-grow: 1; }
+      .contact-card--contents h4 {
+        font-size: 2rem; }
+      .contact-card--contents p {
+        color: gray; }
+  .contact .resize-x {
+    resize: horizontal; }
+  .contact .resize-none {
+    resize: none; }
 
 /*# sourceMappingURL=style.css.map */

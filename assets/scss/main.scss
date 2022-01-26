@@ -14,6 +14,8 @@
 
 // components
 @import "./components/buttons";
+// @import "./components/badges"
+@import "./components/forms";
 
 // layouts
 @import "./layouts/header";
@@ -29,8 +31,9 @@
 // paages
 @import "./pages/about";
 @import "./pages/home";
-@import "./pages/roadmap"
-
+@import "./pages/roadmap";
+@import "./pages/skills";
+@import "./pages/contact";
 
 
 

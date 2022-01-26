@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-code{
+    font-size: 2rem;
+    
+}
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.container {
+    max-width: 768px;
+    // margin-left: var(--mb-1-5);
+    // margin-right: var(--mb-1-5);
+}
+
+
+.section{
+    //  color: red;
+     padding: 2rem 0 4rem;
+
+     h2 {
+        display: block;
+        font-size: 2rem;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+     &__title{
+    text-align: center;
+     }
+
+     &__subtitle{
+         text-align: center;
+         margin-bottom: 4rem;
+     }
+}
+
+.skills{
+    background: white;
+
+    &__container{
+        row-gap: 0;
+    
+    }
+
+    
+
+  
+
+    &__header{
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5px;
+        cursor: pointer;
+    
+           
+        
+
+        
+    }
+    &__brace{
+        margin-right: 30px;
+        color: #57e0be;
+    }
+
+    &__server{
+        margin-right: 30px;
+        font-size: 2rem;
+        color: #57e0be;
+    }
+
+    &__title{
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+   
+
+    
+
+    &__arrow{
+        margin-left: auto;
+        color: #57e0be;
+        font-size: 1.5rem;
+    }
+
+    
+        
+    &__open,&__list{
+    height: max-content;
+    margin-bottom: 30px
+}
+
+
+
+    
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    &__bar{
+        background-color: #b6fcea;
+        height: 5px;
+        border-radius: 0.25rem;
+
+    }
+
+    &__percentage{
+        display: block;
+        background-color:  #57e0be;
+        height: 5px;
+        border-radius: 0.25rem;
+    }
+
+    &__html{
+        width: 95%;
+    }
+
+    &__css{
+
+    width: 80%;
+    }
+
+    &__js{
+
+        width: 85%;
+        }
+    &__react{
+        width: 85%;
+    }
+    &__angular{
+
+        width: 85%;
+        }
+
+    &__data{
+        padding: 1rem;
+
+    }
+
+    &__php{
+        width: 80%;
+    }
+&__firebase{
+    width: 80%;
+}
+
+&__python{
+    width: 86%;
+}
+        
+}
+
+#btn,#btn_2{
+    padding: 1rem;
+
+
+}
+#list,#list_2{
+    padding: 1rem;
+
+
+
+}
+
+
+
+
+.iframe-area{
+
+
+    background-color: #3f43fd ;
+    padding: 8rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+    &--img{
+        width: 32rem;
+
+    }
+
+    &--contents{
+        color: #fff;
+
+        h2{
+            font-size: 2.5rem;
+
+        }
+        p{
+            line-height: 2;
+            color: #cfcfcf;
+            padding-right: 2rem;
+        }
+
+    }
+}

@@ -1,0 +1,37 @@
+.contact{
+    padding: 8rem 20rem;
+    background-color: rgb(224, 224, 224);
+
+
+&-card{
+
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+    padding: 2rem 3rem;
+
+    &--contents{
+        flex-grow: 1;
+
+        h4{
+            font-size: 2rem;
+        }
+        p{
+    color: gray;
+        }
+
+    }
+
+  
+}
+.resize-x{
+    resize: horizontal;
+}
+.resize-none{
+    resize: none;
+}
+
+
+}
