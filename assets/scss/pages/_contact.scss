@@ -6,6 +6,11 @@
        padding: 4rem 2rem;
 
     } 
+    @media only screen and (min-width: 576px) {
+
+        padding: 4rem 2rem;
+ 
+     } 
 
 
 &-card{
@@ -23,6 +28,12 @@
         flex-direction: column;
        
     } 
+    @media only screen and (min-width: 576px) {
+        padding: 2rem 1rem;
+        align-items: initial;
+        flex-direction: column;
+       
+    }
 
     &--contents{
         flex-grow: 1;
@@ -31,6 +42,10 @@
             font-size: 1.2rem;
 
             @media only screen and (max-width: 576px) {
+                font-size: 1rem;
+       
+            } 
+            @media only screen and (min-width: 576px) {
                 font-size: 1rem;
        
             } 
@@ -43,6 +58,10 @@
         font-size: 0.9rem;
        
     } 
+    @media only screen and (min-width: 576px) {
+        font-size: 0.9rem;
+       
+    }
         }
 
     }

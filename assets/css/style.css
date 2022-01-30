@@ -568,6 +568,9 @@ a {
   @media only screen and (max-width: 576px) {
     .header {
       padding: 1rem 2rem; } }
+  @media only screen and (min-width: 576px) {
+    .header {
+      padding: 1rem 2rem; } }
   @media only screen and (max-width: 576px) {
     .header h2 > span {
       font-size: 1rem; } }
@@ -577,12 +580,19 @@ a {
       .header .nav-toggler {
         display: block;
         font-size: 1.3rem; } }
+    @media only screen and (min-width: 576px) {
+      .header .nav-toggler {
+        display: block;
+        font-size: 1.3rem; } }
   .header--menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-transform: uppercase; }
     @media only screen and (max-width: 576px) {
+      .header--menu {
+        display: none; } }
+    @media only screen and (min-width: 576px) {
       .header--menu {
         display: none; } }
     .header--menu__item > a {
@@ -717,6 +727,9 @@ a {
   z-index: -1;
   transform: rotate(360deg);
   animation: box-shape linear 5s infinite; }
+  @media only screen and (min-width: 576px) {
+    .background-shapes .circle2 {
+      top: 10%; } }
 
 footer {
   padding: 2rem 0rem;
@@ -726,9 +739,15 @@ footer {
   @media only screen and (max-width: 576px) {
     footer h2 {
       font-size: 1.2rem; } }
+  @media only screen and (min-width: 576px) {
+    footer h2 {
+      font-size: 1.2rem; } }
   footer p {
     color: #e8e8e8; }
     @media only screen and (max-width: 576px) {
+      footer p {
+        font-size: 0.9rem; } }
+    @media only screen and (min-width: 576px) {
       footer p {
         font-size: 0.9rem; } }
   footer a {
@@ -763,13 +782,23 @@ footer {
     .about-area {
       padding: 4rem 2rem;
       flex-direction: column;
-      margin-top: 0;
-      align-items: center; } }
+      margin-top: 0; } }
+  @media only screen and (min-width: 576px) {
+    .about-area {
+      padding: 4rem 2rem;
+      flex-direction: column;
+      margin-top: 0; } }
   .about-area--img {
     width: 32rem; }
+    @media only screen and (min-width: 576px) {
+      .about-area--img {
+        width: 20rem; } }
   .about-area--contents {
     color: #fff; }
     @media only screen and (max-width: 576px) {
+      .about-area--contents {
+        margin: 0; } }
+    @media only screen and (min-width: 576px) {
       .about-area--contents {
         margin: 0; } }
     .about-area--contents h2 {
@@ -777,11 +806,17 @@ footer {
       @media only screen and (max-width: 576px) {
         .about-area--contents h2 {
           font-size: 1.5rem; } }
+      @media only screen and (min-width: 576px) {
+        .about-area--contents h2 {
+          font-size: 1.5rem; } }
     .about-area--contents p {
       line-height: 2;
       color: #cfcfcf;
       padding-right: 2rem; }
       @media only screen and (max-width: 576px) {
+        .about-area--contents p {
+          font-size: 0.9rem; } }
+      @media only screen and (min-width: 576px) {
         .about-area--contents p {
           font-size: 0.9rem; } }
 
@@ -793,8 +828,14 @@ footer {
   @media only screen and (max-width: 576px) {
     .hero-area {
       padding: 4rem 2rem;
-      flex-direction: column;
-      align-items: center; } }
+      flex-direction: column; } }
+  @media only screen and (min-width: 576px) {
+    .hero-area {
+      padding: 4rem 2rem;
+      flex-direction: column; } }
+  @media only screen and (min-width: 576px) {
+    .hero-area img {
+      width: 25rem; } }
   .hero-area--contents {
     max-width: 25rem; }
   .hero-area--title {
@@ -803,6 +844,9 @@ footer {
     @media only screen and (max-width: 576px) {
       .hero-area--title {
         font-size: 2rem; } }
+    @media only screen and (min-width: 576px) {
+      .hero-area--title {
+        font-size: 1.3rem; } }
   .hero-area > span {
     font-size: 1.5rem; }
   @media only screen and (max-width: 576px) {
@@ -816,10 +860,16 @@ footer {
     @media only screen and (max-width: 576px) {
       .hero-area--desc {
         font-size: 0.9rem; } }
+    @media only screen and (min-width: 576px) {
+      .hero-area--desc {
+        font-size: 0.9rem; } }
 
 .roadmap {
   padding: 8rem 20rem 6rem 20rem; }
   @media only screen and (max-width: 576px) {
+    .roadmap {
+      padding: 4rem 2rem; } }
+  @media only screen and (min-width: 576px) {
     .roadmap {
       padding: 4rem 2rem; } }
   .roadmap--heading {
@@ -835,6 +885,9 @@ footer {
     margin-top: 3rem;
     position: relative; }
     @media only screen and (max-width: 576px) {
+      .roadmap--items {
+        flex-direction: column; } }
+    @media only screen and (min-width: 576px) {
       .roadmap--items {
         flex-direction: column; } }
   .roadmap--item {
@@ -892,6 +945,11 @@ footer {
           content: "\f107";
           top: 90%;
           left: 39%; } }
+      @media only screen and (min-width: 576px) {
+        .roadmap--item:not(:last-child)::before {
+          content: "\f107";
+          top: 90%;
+          left: 39%; } }
     .roadmap--item:hover:not(:last-child)::before {
       color: #3135e8;
       right: -22%; }
@@ -916,8 +974,13 @@ footer {
   max-width: 768px; }
 
 .section {
-  padding: 2rem 0 4rem;
-  margin-top: 0; }
+  padding: 2rem 0 4rem; }
+  @media only screen and (max-width: 576px) {
+    .section {
+      margin-top: 0; } }
+  @media only screen and (min-width: 576px) {
+    .section {
+      margin-top: 0; } }
   .section h2 {
     display: block;
     font-size: 2rem;
@@ -937,13 +1000,19 @@ footer {
     @media only screen and (max-width: 576px) {
       .section__subtitle {
         font-size: 0.8rem; } }
+    @media only screen and (min-width: 576px) {
+      .section__subtitle {
+        font-size: 0.8rem; } }
 
 .skills {
   background: white; }
   @media only screen and (max-width: 576px) {
     .skills {
       padding: 0rem 2rem;
-      margin-top: -50;
+      align-items: center; } }
+  @media only screen and (min-width: 576px) {
+    .skills {
+      padding: 0rem 2rem;
       align-items: center; } }
   .skills__container {
     row-gap: 0; }
@@ -965,7 +1034,13 @@ footer {
     @media only screen and (max-width: 576px) {
       .skills__title {
         font-size: 1rem; } }
+    @media only screen and (min-width: 576px) {
+      .skills__title {
+        font-size: 1rem; } }
   @media only screen and (max-width: 576px) {
+    .skills__subtitle {
+      font-size: 0.7rem; } }
+  @media only screen and (min-width: 576px) {
     .skills__subtitle {
       font-size: 0.7rem; } }
   .skills__arrow {
@@ -980,6 +1055,9 @@ footer {
     justify-content: space-between;
     margin-bottom: 5px; }
     @media only screen and (max-width: 576px) {
+      .skills__titles {
+        font-size: 0.8rem; } }
+    @media only screen and (min-width: 576px) {
       .skills__titles {
         font-size: 0.8rem; } }
   .skills__bar {
@@ -1028,6 +1106,11 @@ footer {
       padding: 4rem 2rem;
       margin-top: 2rem;
       flex-direction: column; } }
+  @media only screen and (min-width: 576px) {
+    .iframe-area {
+      padding: 4rem 2rem;
+      margin-top: 2rem;
+      flex-direction: column; } }
   .iframe-area--img {
     width: 32rem; }
   .iframe-area--contents {
@@ -1045,11 +1128,24 @@ footer {
         .iframe-area--contents p {
           font-size: 0.8rem;
           padding: 1rem 2rem; } }
+      @media only screen and (min-width: 576px) {
+        .iframe-area--contents p {
+          font-size: 0.8rem;
+          padding: 1rem 2rem; } }
+
+@media only screen and (min-width: 576px) {
+  .video {
+    max-width: 50%;
+    height: auto;
+    margin-left: 10rem; } }
 
 .contact {
   padding: 8rem 20rem;
   background-color: #e0e0e0; }
   @media only screen and (max-width: 576px) {
+    .contact {
+      padding: 4rem 2rem; } }
+  @media only screen and (min-width: 576px) {
     .contact {
       padding: 4rem 2rem; } }
   .contact-card {
@@ -1064,6 +1160,11 @@ footer {
         padding: 2rem 1rem;
         align-items: initial;
         flex-direction: column; } }
+    @media only screen and (min-width: 576px) {
+      .contact-card {
+        padding: 2rem 1rem;
+        align-items: initial;
+        flex-direction: column; } }
     .contact-card--contents {
       flex-grow: 1; }
       .contact-card--contents h4 {
@@ -1071,9 +1172,15 @@ footer {
         @media only screen and (max-width: 576px) {
           .contact-card--contents h4 {
             font-size: 1rem; } }
+        @media only screen and (min-width: 576px) {
+          .contact-card--contents h4 {
+            font-size: 1rem; } }
       .contact-card--contents p {
         color: gray; }
         @media only screen and (max-width: 576px) {
+          .contact-card--contents p {
+            font-size: 0.9rem; } }
+        @media only screen and (min-width: 576px) {
           .contact-card--contents p {
             font-size: 0.9rem; } }
   .contact .resize-x {

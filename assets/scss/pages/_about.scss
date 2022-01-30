@@ -12,11 +12,26 @@
       // background-color: red;
       flex-direction: column;
     margin-top: 0;
-    align-items: center;
+    // align-items: center;
         }
+
+        @media only screen and (min-width: 576px) {
+
+            padding: 4rem 2rem;
+          // background-color: red;
+          flex-direction: column;
+        margin-top: 0;
+
+        // align-items: center;
+            }
     
     &--img{
         width: 32rem;
+
+        @media only screen and (min-width: 576px) {
+
+           width: 20rem;
+            }
 
     }
 
@@ -27,11 +42,22 @@
             margin: 0;
        
         } 
+        @media only screen and (min-width: 576px) {
+            margin: 0;
+       
+        } 
 
         h2{
             font-size: 3rem;
 
             @media only screen and (max-width: 576px) {
+
+                font-size: 1.5rem;
+
+    
+            }
+
+            @media only screen and (min-width: 576px) {
 
                 font-size: 1.5rem;
 
@@ -49,6 +75,12 @@
             font-size: 0.9rem;
     
             }
+
+            @media only screen and (min-width: 576px) {
+
+                font-size: 0.9rem;
+        
+                }
         }
 
     }
