@@ -571,6 +571,9 @@ a {
   @media only screen and (min-width: 576px) {
     .header {
       padding: 1rem 2rem; } }
+  @media only screen and (min-width: 768px) {
+    .header {
+      padding: 1rem 2rem; } }
   @media only screen and (max-width: 576px) {
     .header h2 > span {
       font-size: 1rem; } }
@@ -584,6 +587,10 @@ a {
       .header .nav-toggler {
         display: block;
         font-size: 1.3rem; } }
+    @media only screen and (min-width: 768px) {
+      .header .nav-toggler {
+        display: block;
+        font-size: 1.3rem; } }
   .header--menu {
     display: flex;
     align-items: center;
@@ -593,6 +600,9 @@ a {
       .header--menu {
         display: none; } }
     @media only screen and (min-width: 576px) {
+      .header--menu {
+        display: none; } }
+    @media only screen and (min-width: 768px) {
       .header--menu {
         display: none; } }
     .header--menu__item > a {
@@ -729,7 +739,10 @@ a {
   animation: box-shape linear 5s infinite; }
   @media only screen and (min-width: 576px) {
     .background-shapes .circle2 {
-      top: 10%; } }
+      top: 20%; } }
+  @media only screen and (min-width: 768px) {
+    .background-shapes .circle2 {
+      top: 20%; } }
 
 footer {
   padding: 2rem 0rem;
