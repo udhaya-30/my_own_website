@@ -1,6 +1,12 @@
 .roadmap{
     padding: 8rem 20rem 6rem 20rem;
 
+    @media only screen and (max-width: 576px) {
+
+      padding: 4rem 2rem;
+    
+    }
+
 
     &--heading{
         text-align: center;
@@ -23,6 +29,11 @@
         
         position: relative;
 
+        @media only screen and (max-width: 576px) {
+
+      flex-direction: column;
+    
+        }
     }
 
     &--item{
@@ -104,7 +115,14 @@
             color: #020702;
             z-index: 1;
             line-height: 1;
+            @media only screen and (max-width: 576px) {
 
+    //   transform: rotate(90);
+    content: "\f107";
+    top: 90%;
+    left: 39%;
+    
+            }
 
 
 

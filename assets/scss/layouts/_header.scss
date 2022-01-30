@@ -1,4 +1,4 @@
-@use "../abstract/variable" as var;
+@use  "../abstract/variable" as var;
 .header
 {
     padding: 1rem 20rem;
@@ -7,12 +7,45 @@
     align-items: center;
     border-bottom: #eee solid;
 
+    @media only screen and (max-width: 576px) {
+
+    padding: 1rem 2rem;
+  // background-color: red;
+
+    }
+
+    h2>span{
+      
+      @media only screen and (max-width: 576px) {
+
+       font-size: 1rem;
+      } 
+    }
+      
+    .nav-toggler{
+
+      display: none;
+      @media only screen and (max-width: 576px) {
+        display: block;
+        // display: none;
+
+       font-size: 1.3rem;
+      } 
+    }
+    
+
     &--menu{
         display: flex;
         align-items: center;
         list-style: none;
         text-transform: uppercase;
 
+
+        @media only screen and (max-width: 576px) {
+
+          display: none;
+      
+          }
         &__item > a{
             margin-right: 1.5rem;
             font-size: 14px;
@@ -30,4 +63,5 @@
           }
         }
     }
-}
+  }
+
