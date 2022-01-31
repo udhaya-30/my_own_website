@@ -1,7 +1,7 @@
 .hero-area{
     padding: 8rem 20rem;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 
@@ -68,6 +68,14 @@
                 
                 
                     }
+
+                    
+                    @media only screen and (min-width: 1200px) {
+
+                      width: 35rem;
+                    
+                    
+                        }
 
                     @media only screen and (min-width: 1400px) {
 

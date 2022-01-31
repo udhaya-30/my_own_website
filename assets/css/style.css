@@ -628,142 +628,140 @@ a {
       .header--menu__item > a.active {
         color: #3135e8; }
 
-.background-shapes {
-  flex-basis: 100%; }
-  @media only screen and (max-width: 576px) {
-    .background-shapes {
-      display: none; } }
-  .background-shapes .box1 {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    border-radius: 0.35rem;
-    width: 15px;
-    height: 15px;
-    background-color: transparent;
-    border: 3px solid #3f43fd;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .box2 {
-    position: absolute;
-    top: 80%;
-    left: 60%;
-    border-radius: 0.35rem;
-    width: 15px;
-    height: 15px;
-    background-color: transparent;
-    border: 3px solid #3f43fd;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .box3 {
-    position: absolute;
-    top: 30%;
-    left: 90%;
-    border-radius: 0.35rem;
-    width: 15px;
-    height: 15px;
-    background-color: transparent;
-    border: 3px solid #3f43fd;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .dot1 {
-    position: absolute;
-    top: 77%;
-    left: 6%;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    background-color: #3f43fd;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .dot2 {
-    position: absolute;
-    top: 18%;
-    right: 4%;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    background-color: #f4284a;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .dot3 {
-    position: absolute;
-    top: 90%;
-    left: 43%;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    background-color: #f428f4;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .dot4 {
-    position: absolute;
-    top: 91%;
-    right: 6%;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    background-color: red;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .heart1 {
-    font-size: 1.5rem;
-    position: absolute;
-    top: 51%;
-    left: 12%;
-    z-index: -1;
-    color: #f4284a;
-    animation: box-shape linear 5s infinite; }
-    @media only screen and (min-width: 992px) {
-      .background-shapes .heart1 {
-        left: 5%; } }
-  .background-shapes .heart2 {
-    font-size: 1.5rem;
-    position: absolute;
-    top: 55%;
-    right: 8%;
-    z-index: -1;
-    color: red;
-    animation: box-shape linear 5s infinite; }
-    @media only screen and (min-width: 992px) {
-      .background-shapes .heart2 {
-        right: 5%;
-        top: 60%; } }
-  .background-shapes .circle1 {
-    position: absolute;
-    top: 80%;
-    left: 21%;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #f4284a;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-  .background-shapes .circle2 {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #f4284a;
-    z-index: -1;
-    transform: rotate(360deg);
-    animation: box-shape linear 5s infinite; }
-    @media only screen and (min-width: 576px) {
-      .background-shapes .circle2 {
-        top: 20%; } }
-    @media only screen and (min-width: 768px) {
-      .background-shapes .circle2 {
-        top: 20%; } }
+@media only screen and (max-width: 576px) {
+  .background-shapes {
+    display: none; } }
+.background-shapes .box1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  border-radius: 0.35rem;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 3px solid #3f43fd;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .box2 {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  border-radius: 0.35rem;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 3px solid #3f43fd;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .box3 {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  border-radius: 0.35rem;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 3px solid #3f43fd;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .dot1 {
+  position: absolute;
+  top: 77%;
+  left: 6%;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #3f43fd;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .dot2 {
+  position: absolute;
+  top: 18%;
+  right: 4%;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #f4284a;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .dot3 {
+  position: absolute;
+  top: 90%;
+  left: 43%;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #f428f4;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .dot4 {
+  position: absolute;
+  top: 91%;
+  right: 6%;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .heart1 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 51%;
+  left: 12%;
+  z-index: -1;
+  color: #f4284a;
+  animation: box-shape linear 5s infinite; }
+  @media only screen and (min-width: 992px) {
+    .background-shapes .heart1 {
+      left: 5%; } }
+.background-shapes .heart2 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 55%;
+  right: 8%;
+  z-index: -1;
+  color: red;
+  animation: box-shape linear 5s infinite; }
+  @media only screen and (min-width: 992px) {
+    .background-shapes .heart2 {
+      right: 5%;
+      top: 60%; } }
+.background-shapes .circle1 {
+  position: absolute;
+  top: 80%;
+  left: 21%;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #f4284a;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+.background-shapes .circle2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #f4284a;
+  z-index: -1;
+  transform: rotate(360deg);
+  animation: box-shape linear 5s infinite; }
+  @media only screen and (min-width: 576px) {
+    .background-shapes .circle2 {
+      top: 20%; } }
+  @media only screen and (min-width: 768px) {
+    .background-shapes .circle2 {
+      top: 20%; } }
 
 footer {
   padding: 2rem 0rem;
@@ -888,7 +886,6 @@ footer {
 .hero-area {
   padding: 8rem 20rem;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center; }
   @media only screen and (max-width: 576px) {
@@ -919,6 +916,9 @@ footer {
   @media only screen and (min-width: 576px) {
     .hero-area img {
       width: 25rem; } }
+  @media only screen and (min-width: 1200px) {
+    .hero-area img {
+      width: 35rem; } }
   @media only screen and (min-width: 1400px) {
     .hero-area img {
       width: 45rem; } }
@@ -982,12 +982,12 @@ footer {
   @media only screen and (min-width: 992px) {
     .roadmap {
       padding: 8rem 4rem; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1200px) {
     .roadmap {
-      padding: 8rem 15rem; } }
+      padding: 8rem 4rem; } }
   @media only screen and (min-width: 1400px) {
     .roadmap {
-      padding: 8rem 20rem; } }
+      padding: 8rem 10rem; } }
   .roadmap--heading {
     text-align: center; }
   .roadmap h5 {
