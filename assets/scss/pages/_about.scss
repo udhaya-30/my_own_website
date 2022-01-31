@@ -24,6 +24,17 @@
 
         // align-items: center;
             }
+
+            @media only screen and (min-width: 992px) {
+
+            
+                flex-direction: row;
+                align-items: center;
+                padding: 8rem 6rem;
+                margin-top: 0;
+
+        
+            }
     
     &--img{
         width: 32rem;
@@ -32,6 +43,12 @@
 
            width: 20rem;
             }
+
+            @media only screen and (min-width: 992px) {
+
+                width: 66rem;
+                align-items: center;
+                 }
 
     }
 
@@ -68,7 +85,8 @@
         p{
             line-height: 2;
             color: #cfcfcf;
-            padding-right: 2rem;
+            padding:none;
+
 
             @media only screen and (max-width: 576px) {
 
@@ -81,6 +99,12 @@
                 font-size: 0.9rem;
         
                 }
+
+                @media only screen and (min-width: 992px) {
+
+                    font-size: 0.9rem;
+                   
+                    }
         }
 
     }

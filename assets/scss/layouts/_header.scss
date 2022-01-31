@@ -25,6 +25,14 @@
       // background-color: red;
     
         }
+      @media only screen and (min-width: 992px) {
+
+        padding: 1rem 4rem;
+      // background-color: red;
+    
+
+
+        }
     h2>span{
       
       @media only screen and (max-width: 576px) {
@@ -50,6 +58,13 @@
       } 
       @media only screen and (min-width: 768px) {
         display: block;
+        // display: none;
+
+       font-size: 1.3rem;
+      } 
+
+      @media only screen and (min-width: 992px) {
+        display: none;
         // display: none;
 
        font-size: 1.3rem;
@@ -81,6 +96,12 @@
               display: none;
           
               }
+
+              @media only screen and (min-width: 992px) {
+
+                display: flex;
+            
+                }
         &__item > a{
             margin-right: 1.5rem;
             font-size: 14px;

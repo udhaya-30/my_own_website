@@ -23,6 +23,24 @@
         
             }
 
+            @media only screen and (min-width: 768px) {
+
+                padding: 4rem 2rem;
+              // background-color: red;
+              flex-direction: column;
+            
+            
+                }
+
+                @media only screen and (min-width: 992px) {
+
+                    padding: 8rem 6rem;
+                  // background-color: red;
+                  flex-direction: row;
+                
+                
+                    }
+
             img{
                 @media only screen and (min-width: 576px) {
 
@@ -37,6 +55,14 @@
     &--contents{
         max-width: 25rem;
         // justify-content: space-betw;
+
+        @media only screen and (min-width: 992px) {
+
+            
+            max-width: 25rem;
+        
+            }
+
     }
     
     &--title{
@@ -55,6 +81,13 @@
      
          
              }
+
+             @media only screen and (min-width: 992px) {
+
+            
+                font-size: 2rem;
+        
+            }
 
     }
 
@@ -91,5 +124,12 @@
      
          
              }
+
+             @media only screen and (min-width: 992px) {
+
+            font-size: 1rem;
+        
+        
+            }
     }
 }

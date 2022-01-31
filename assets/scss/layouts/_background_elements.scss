@@ -105,6 +105,13 @@
         z-index: -1;
         color: #f4284a;
         animation: box-shape linear 5s infinite;
+
+        @media only screen and (min-width: 992px) {
+
+            
+        left: 5%;
+        
+        }
     }
     .heart2{
         font-size: 1.5rem;
@@ -114,6 +121,14 @@
         z-index: -1;
         color: red;
         animation: box-shape linear 5s infinite;
+
+        @media only screen and (min-width: 992px) {
+
+            right: 5%;
+            top: 60%;
+        
+        
+        }
     }
     .circle1{
         position: absolute;

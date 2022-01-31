@@ -28,10 +28,6 @@ a {
   max-width: 100%;
   height: auto; }
 
-.video {
-  max-width: 100%;
-  height: auto; }
-
 @keyframes color-change {
   0% {
     color: red; }
@@ -574,6 +570,9 @@ a {
   @media only screen and (min-width: 768px) {
     .header {
       padding: 1rem 2rem; } }
+  @media only screen and (min-width: 992px) {
+    .header {
+      padding: 1rem 4rem; } }
   @media only screen and (max-width: 576px) {
     .header h2 > span {
       font-size: 1rem; } }
@@ -591,6 +590,10 @@ a {
       .header .nav-toggler {
         display: block;
         font-size: 1.3rem; } }
+    @media only screen and (min-width: 992px) {
+      .header .nav-toggler {
+        display: none;
+        font-size: 1.3rem; } }
   .header--menu {
     display: flex;
     align-items: center;
@@ -605,6 +608,9 @@ a {
     @media only screen and (min-width: 768px) {
       .header--menu {
         display: none; } }
+    @media only screen and (min-width: 992px) {
+      .header--menu {
+        display: flex; } }
     .header--menu__item > a {
       margin-right: 1.5rem;
       font-size: 14px;
@@ -707,6 +713,9 @@ a {
   z-index: -1;
   color: #f4284a;
   animation: box-shape linear 5s infinite; }
+  @media only screen and (min-width: 992px) {
+    .background-shapes .heart1 {
+      left: 5%; } }
 .background-shapes .heart2 {
   font-size: 1.5rem;
   position: absolute;
@@ -715,6 +724,10 @@ a {
   z-index: -1;
   color: red;
   animation: box-shape linear 5s infinite; }
+  @media only screen and (min-width: 992px) {
+    .background-shapes .heart2 {
+      right: 5%;
+      top: 60%; } }
 .background-shapes .circle1 {
   position: absolute;
   top: 80%;
@@ -801,11 +814,21 @@ footer {
       padding: 4rem 2rem;
       flex-direction: column;
       margin-top: 0; } }
+  @media only screen and (min-width: 992px) {
+    .about-area {
+      flex-direction: row;
+      align-items: center;
+      padding: 8rem 6rem;
+      margin-top: 0; } }
   .about-area--img {
     width: 32rem; }
     @media only screen and (min-width: 576px) {
       .about-area--img {
         width: 20rem; } }
+    @media only screen and (min-width: 992px) {
+      .about-area--img {
+        width: 66rem;
+        align-items: center; } }
   .about-area--contents {
     color: #fff; }
     @media only screen and (max-width: 576px) {
@@ -825,11 +848,14 @@ footer {
     .about-area--contents p {
       line-height: 2;
       color: #cfcfcf;
-      padding-right: 2rem; }
+      padding: none; }
       @media only screen and (max-width: 576px) {
         .about-area--contents p {
           font-size: 0.9rem; } }
       @media only screen and (min-width: 576px) {
+        .about-area--contents p {
+          font-size: 0.9rem; } }
+      @media only screen and (min-width: 992px) {
         .about-area--contents p {
           font-size: 0.9rem; } }
 
@@ -846,11 +872,22 @@ footer {
     .hero-area {
       padding: 4rem 2rem;
       flex-direction: column; } }
+  @media only screen and (min-width: 768px) {
+    .hero-area {
+      padding: 4rem 2rem;
+      flex-direction: column; } }
+  @media only screen and (min-width: 992px) {
+    .hero-area {
+      padding: 8rem 6rem;
+      flex-direction: row; } }
   @media only screen and (min-width: 576px) {
     .hero-area img {
       width: 25rem; } }
   .hero-area--contents {
     max-width: 25rem; }
+    @media only screen and (min-width: 992px) {
+      .hero-area--contents {
+        max-width: 25rem; } }
   .hero-area--title {
     font-size: 14px;
     font-weight: 600; }
@@ -860,6 +897,9 @@ footer {
     @media only screen and (min-width: 576px) {
       .hero-area--title {
         font-size: 1.3rem; } }
+    @media only screen and (min-width: 992px) {
+      .hero-area--title {
+        font-size: 2rem; } }
   .hero-area > span {
     font-size: 1.5rem; }
   @media only screen and (max-width: 576px) {
@@ -876,6 +916,9 @@ footer {
     @media only screen and (min-width: 576px) {
       .hero-area--desc {
         font-size: 0.9rem; } }
+    @media only screen and (min-width: 992px) {
+      .hero-area--desc {
+        font-size: 1rem; } }
 
 .roadmap {
   padding: 8rem 20rem 6rem 20rem; }
@@ -885,6 +928,9 @@ footer {
   @media only screen and (min-width: 576px) {
     .roadmap {
       padding: 4rem 2rem; } }
+  @media only screen and (min-width: 992px) {
+    .roadmap {
+      padding: 8rem 4rem; } }
   .roadmap--heading {
     text-align: center; }
   .roadmap h5 {
@@ -903,6 +949,9 @@ footer {
     @media only screen and (min-width: 576px) {
       .roadmap--items {
         flex-direction: column; } }
+    @media only screen and (min-width: 992px) {
+      .roadmap--items {
+        flex-direction: row; } }
   .roadmap--item {
     transition: 300ms;
     text-align: center;
@@ -963,6 +1012,12 @@ footer {
           content: "\f107";
           top: 90%;
           left: 39%; } }
+      @media only screen and (min-width: 992px) {
+        .roadmap--item:not(:last-child)::before {
+          content: "";
+          top: 35%;
+          left: auto;
+          right: -20%; } }
     .roadmap--item:hover:not(:last-child)::before {
       color: #3135e8;
       right: -22%; }
@@ -1026,6 +1081,10 @@ footer {
   @media only screen and (min-width: 576px) {
     .skills {
       padding: 0rem 2rem;
+      align-items: center; } }
+  @media only screen and (min-width: 992px) {
+    .skills {
+      padding: 0rem 10rem;
       align-items: center; } }
   .skills__container {
     row-gap: 0; }
@@ -1117,40 +1176,66 @@ footer {
   @media only screen and (max-width: 576px) {
     .iframe-area {
       padding: 4rem 2rem;
-      margin-top: 2rem;
+      margin-top: 0;
       flex-direction: column; } }
   @media only screen and (min-width: 576px) {
     .iframe-area {
       padding: 4rem 2rem;
-      margin-top: 2rem;
+      margin-top: 0;
       flex-direction: column; } }
+  @media only screen and (min-width: 992px) {
+    .iframe-area {
+      padding: 8rem 6rem;
+      align-items: center;
+      flex-direction: row; } }
   .iframe-area--img {
     width: 32rem; }
+    @media only screen and (min-width: 576px) {
+      .iframe-area--img {
+        width: 20rem; } }
+    @media only screen and (min-width: 992px) {
+      .iframe-area--img {
+        width: 66rem;
+        align-items: center; } }
   .iframe-area--contents {
     color: #fff; }
+    @media only screen and (max-width: 576px) {
+      .iframe-area--contents {
+        margin: 0; } }
+    @media only screen and (min-width: 576px) {
+      .iframe-area--contents {
+        margin: 0; } }
     .iframe-area--contents h2 {
-      font-size: 2.5rem; }
+      font-size: 3rem; }
       @media only screen and (max-width: 576px) {
         .iframe-area--contents h2 {
-          font-size: 2rem; } }
+          font-size: 1.5rem; } }
+      @media only screen and (min-width: 576px) {
+        .iframe-area--contents h2 {
+          font-size: 1.5rem; } }
+      @media only screen and (min-width: 992px) {
+        .iframe-area--contents h2 {
+          font-size: 1.5rem; } }
     .iframe-area--contents p {
       line-height: 2;
       color: #cfcfcf;
       padding-right: 2rem; }
       @media only screen and (max-width: 576px) {
         .iframe-area--contents p {
-          font-size: 0.8rem;
-          padding: 1rem 2rem; } }
+          font-size: 0.9rem; } }
       @media only screen and (min-width: 576px) {
         .iframe-area--contents p {
-          font-size: 0.8rem;
-          padding: 1rem 2rem; } }
-
-@media only screen and (min-width: 576px) {
-  .video {
-    max-width: 50%;
-    height: auto;
-    margin-left: 10rem; } }
+          font-size: 0.9rem; } }
+  @media only screen and (max-width: 576px) {
+    .iframe-area .video {
+      max-width: 100%;
+      height: auto;
+      position: relative; } }
+  @media only screen and (min-width: 992px) {
+    .iframe-area .video {
+      max-width: 100%;
+      width: 60rem;
+      height: auto; } }
 
 .contact {
   padding: 8rem 20rem;
@@ -1161,6 +1246,9 @@ footer {
   @media only screen and (min-width: 576px) {
     .contact {
       padding: 4rem 2rem; } }
+  @media only screen and (min-width: 992px) {
+    .contact {
+      padding: 8rem 6rem; } }
   .contact-card {
     background-color: #fff;
     display: flex;
@@ -1178,6 +1266,12 @@ footer {
         padding: 2rem 1rem;
         align-items: initial;
         flex-direction: column; } }
+    @media only screen and (min-width: 992px) {
+      .contact-card {
+        flex-direction: row; } }
+    @media only screen and (min-width: 992px) {
+      .contact-card img {
+        width: 30rem; } }
     .contact-card--contents {
       flex-grow: 1; }
       .contact-card--contents h4 {
