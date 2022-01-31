@@ -572,7 +572,10 @@ a {
       padding: 1rem 2rem; } }
   @media only screen and (min-width: 992px) {
     .header {
-      padding: 1rem 4rem; } }
+      padding: 1rem 6rem; } }
+  @media only screen and (min-width: 1200px) {
+    .header {
+      padding: 1rem 15rem; } }
   @media only screen and (max-width: 576px) {
     .header h2 > span {
       font-size: 1rem; } }
@@ -622,140 +625,142 @@ a {
       .header--menu__item > a.active {
         color: #3135e8; }
 
-@media only screen and (max-width: 576px) {
-  .background-shapes {
-    display: none; } }
-.background-shapes .box1 {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  border-radius: 0.35rem;
-  width: 15px;
-  height: 15px;
-  background-color: transparent;
-  border: 3px solid #3f43fd;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .box2 {
-  position: absolute;
-  top: 80%;
-  left: 60%;
-  border-radius: 0.35rem;
-  width: 15px;
-  height: 15px;
-  background-color: transparent;
-  border: 3px solid #3f43fd;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .box3 {
-  position: absolute;
-  top: 30%;
-  left: 90%;
-  border-radius: 0.35rem;
-  width: 15px;
-  height: 15px;
-  background-color: transparent;
-  border: 3px solid #3f43fd;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .dot1 {
-  position: absolute;
-  top: 77%;
-  left: 6%;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  background-color: #3f43fd;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .dot2 {
-  position: absolute;
-  top: 18%;
-  right: 4%;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  background-color: #f4284a;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .dot3 {
-  position: absolute;
-  top: 90%;
-  left: 43%;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  background-color: #f428f4;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .dot4 {
-  position: absolute;
-  top: 91%;
-  right: 6%;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  background-color: red;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .heart1 {
-  font-size: 1.5rem;
-  position: absolute;
-  top: 51%;
-  left: 12%;
-  z-index: -1;
-  color: #f4284a;
-  animation: box-shape linear 5s infinite; }
-  @media only screen and (min-width: 992px) {
-    .background-shapes .heart1 {
-      left: 5%; } }
-.background-shapes .heart2 {
-  font-size: 1.5rem;
-  position: absolute;
-  top: 55%;
-  right: 8%;
-  z-index: -1;
-  color: red;
-  animation: box-shape linear 5s infinite; }
-  @media only screen and (min-width: 992px) {
-    .background-shapes .heart2 {
-      right: 5%;
-      top: 60%; } }
-.background-shapes .circle1 {
-  position: absolute;
-  top: 80%;
-  left: 21%;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  border: 3px solid #f4284a;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-.background-shapes .circle2 {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  border: 3px solid #f4284a;
-  z-index: -1;
-  transform: rotate(360deg);
-  animation: box-shape linear 5s infinite; }
-  @media only screen and (min-width: 576px) {
-    .background-shapes .circle2 {
-      top: 20%; } }
-  @media only screen and (min-width: 768px) {
-    .background-shapes .circle2 {
-      top: 20%; } }
+.background-shapes {
+  flex-basis: 100%; }
+  @media only screen and (max-width: 576px) {
+    .background-shapes {
+      display: none; } }
+  .background-shapes .box1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 0.35rem;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 3px solid #3f43fd;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .box2 {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    border-radius: 0.35rem;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 3px solid #3f43fd;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .box3 {
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    border-radius: 0.35rem;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 3px solid #3f43fd;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .dot1 {
+    position: absolute;
+    top: 77%;
+    left: 6%;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #3f43fd;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .dot2 {
+    position: absolute;
+    top: 18%;
+    right: 4%;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #f4284a;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .dot3 {
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #f428f4;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .dot4 {
+    position: absolute;
+    top: 91%;
+    right: 6%;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .heart1 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 51%;
+    left: 12%;
+    z-index: -1;
+    color: #f4284a;
+    animation: box-shape linear 5s infinite; }
+    @media only screen and (min-width: 992px) {
+      .background-shapes .heart1 {
+        left: 5%; } }
+  .background-shapes .heart2 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    z-index: -1;
+    color: red;
+    animation: box-shape linear 5s infinite; }
+    @media only screen and (min-width: 992px) {
+      .background-shapes .heart2 {
+        right: 5%;
+        top: 60%; } }
+  .background-shapes .circle1 {
+    position: absolute;
+    top: 80%;
+    left: 21%;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #f4284a;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+  .background-shapes .circle2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #f4284a;
+    z-index: -1;
+    transform: rotate(360deg);
+    animation: box-shape linear 5s infinite; }
+    @media only screen and (min-width: 576px) {
+      .background-shapes .circle2 {
+        top: 20%; } }
+    @media only screen and (min-width: 768px) {
+      .background-shapes .circle2 {
+        top: 20%; } }
 
 footer {
   padding: 2rem 0rem;
@@ -820,6 +825,9 @@ footer {
       align-items: center;
       padding: 8rem 6rem;
       margin-top: 0; } }
+  @media only screen and (min-width: 1200px) {
+    .about-area {
+      padding: 8rem 15rem; } }
   .about-area--img {
     width: 32rem; }
     @media only screen and (min-width: 576px) {
@@ -829,6 +837,9 @@ footer {
       .about-area--img {
         width: 66rem;
         align-items: center; } }
+    @media only screen and (min-width: 1200px) {
+      .about-area--img {
+        width: 100rem; } }
   .about-area--contents {
     color: #fff; }
     @media only screen and (max-width: 576px) {
@@ -862,6 +873,7 @@ footer {
 .hero-area {
   padding: 8rem 20rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center; }
   @media only screen and (max-width: 576px) {
@@ -880,6 +892,11 @@ footer {
     .hero-area {
       padding: 8rem 6rem;
       flex-direction: row; } }
+  @media only screen and (min-width: 1200px) {
+    .hero-area {
+      padding: 8rem 15rem;
+      flex-direction: row;
+      justify-content: space-between; } }
   @media only screen and (min-width: 576px) {
     .hero-area img {
       width: 25rem; } }
@@ -900,6 +917,9 @@ footer {
     @media only screen and (min-width: 992px) {
       .hero-area--title {
         font-size: 2rem; } }
+    @media only screen and (min-width: 1200px) {
+      .hero-area--title {
+        font-size: 2.5rem; } }
   .hero-area > span {
     font-size: 1.5rem; }
   @media only screen and (max-width: 576px) {
@@ -931,6 +951,9 @@ footer {
   @media only screen and (min-width: 992px) {
     .roadmap {
       padding: 8rem 4rem; } }
+  @media only screen and (min-width: 992px) {
+    .roadmap {
+      padding: 8rem 15rem; } }
   .roadmap--heading {
     text-align: center; }
   .roadmap h5 {
@@ -1084,7 +1107,11 @@ footer {
       align-items: center; } }
   @media only screen and (min-width: 992px) {
     .skills {
-      padding: 0rem 10rem;
+      padding: 8rem 15rem;
+      align-items: center; } }
+  @media only screen and (min-width: 1200px) {
+    .skills {
+      padding: 8rem 10rem;
       align-items: center; } }
   .skills__container {
     row-gap: 0; }
@@ -1109,12 +1136,18 @@ footer {
     @media only screen and (min-width: 576px) {
       .skills__title {
         font-size: 1rem; } }
+    @media only screen and (min-width: 1200px) {
+      .skills__title {
+        font-size: 1.5rem; } }
   @media only screen and (max-width: 576px) {
     .skills__subtitle {
       font-size: 0.7rem; } }
   @media only screen and (min-width: 576px) {
     .skills__subtitle {
       font-size: 0.7rem; } }
+  @media only screen and (min-width: 1200px) {
+    .skills__subtitle {
+      font-size: 1rem; } }
   .skills__arrow {
     margin-left: auto;
     color: #57e0be;
@@ -1188,6 +1221,9 @@ footer {
       padding: 8rem 6rem;
       align-items: center;
       flex-direction: row; } }
+  @media only screen and (min-width: 1200px) {
+    .iframe-area {
+      padding: 8rem 15rem; } }
   .iframe-area--img {
     width: 32rem; }
     @media only screen and (min-width: 576px) {
@@ -1197,6 +1233,9 @@ footer {
       .iframe-area--img {
         width: 66rem;
         align-items: center; } }
+    @media only screen and (min-width: 1200px) {
+      .iframe-area--img {
+        width: 100rem; } }
   .iframe-area--contents {
     color: #fff; }
     @media only screen and (max-width: 576px) {

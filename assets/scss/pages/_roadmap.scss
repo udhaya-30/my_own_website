@@ -17,6 +17,12 @@
         padding: 8rem 4rem;
 
         }
+        @media only screen and (min-width: 992px) {
+
+            // font-size: 0.9rem;
+            padding: 8rem 15rem;
+    
+            }
 
     &--heading{
         text-align: center;

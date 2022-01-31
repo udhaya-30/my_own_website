@@ -1,7 +1,7 @@
 .hero-area{
     padding: 8rem 20rem;
     display: flex;
-
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 
@@ -40,6 +40,16 @@
                 
                 
                     }
+                    @media only screen and (min-width: 1200px) {
+
+                        padding: 8rem 15rem;
+                      // background-color: red;
+                      flex-direction: row;
+                      justify-content: space-between;
+                    
+                    
+                        }
+
 
             img{
                 @media only screen and (min-width: 576px) {
@@ -86,6 +96,13 @@
 
             
                 font-size: 2rem;
+        
+            }
+
+            @media only screen and (min-width: 1200px) {
+
+            
+                font-size: 2.5rem;
         
             }
 
