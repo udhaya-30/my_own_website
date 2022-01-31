@@ -50,6 +50,16 @@
                     
                         }
 
+                        @media only screen and (min-width: 1400px) {
+
+                            padding: 8rem 20rem;
+                          // background-color: red;
+                        //   flex-direction: row;
+                          justify-content: space-around;
+                        
+                        
+                            }
+
 
             img{
                 @media only screen and (min-width: 576px) {
@@ -58,6 +68,15 @@
                 
                 
                     }
+
+                    @media only screen and (min-width: 1400px) {
+
+                        width: 45rem;
+                      
+                      
+                          }
+
+
             }
 
     
@@ -76,7 +95,7 @@
     }
     
     &--title{
-        font-size: 14px;
+        font-size: 3rem;
         font-weight: 600;
 
         @media only screen and (max-width: 576px) {
@@ -105,6 +124,13 @@
                 font-size: 2.5rem;
         
             }
+            @media only screen and (min-width: 1400px) {
+
+            
+                font-size: 3rem;
+        
+            }
+
 
     }
 
@@ -112,7 +138,12 @@
         font-size: 1.5rem;
         // font-weight: ;
 
+        @media only screen and (min-width: 1400px) {
+
+            font-size: 3rem;
         
+        
+            }
 
     }
 
@@ -148,5 +179,12 @@
         
         
             }
+
+            @media only screen and (min-width: 1400px) {
+
+                font-size: 1.2rem;
+            
+            
+                }
     }
 }
