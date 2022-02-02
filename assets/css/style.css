@@ -4,7 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif; }
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth; }
 
 a {
   text-decoration: none; }
@@ -27,6 +28,9 @@ a {
 .img-responsive {
   max-width: 100%;
   height: auto; }
+
+.hidden {
+  display: none; }
 
 @keyframes color-change {
   0% {
@@ -607,7 +611,25 @@ a {
     text-transform: uppercase; }
     @media only screen and (max-width: 576px) {
       .header--menu {
-        display: none; } }
+        display: none;
+        position: fixed;
+        top: -100%;
+        background-color: #0080ff;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        transition: 500ms; }
+        .header--menu.show {
+          display: block;
+          top: 64px;
+          text-align: center; }
+        .header--menu li {
+          padding: 2rem; }
+          .header--menu li a {
+            color: white; }
+            .header--menu li a.active {
+              color: black; } }
     @media only screen and (min-width: 576px) {
       .header--menu {
         display: none; } }
