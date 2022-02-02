@@ -22,7 +22,9 @@
 
 .section{
     //  color: red;
+  
      padding: 2rem 0 4rem;
+    //  background-color: green;
 
      @media only screen and (max-width: 576px) {
 
@@ -222,6 +224,20 @@
             font-size: 0.8rem;
        
         } 
+
+        @media only screen and (min-width: 992px) {
+            font-size: 0.9rem;
+       
+        } 
+        @media only screen and (min-width: 1200px) {
+            font-size: 1rem;
+       
+        } 
+         @media only screen and (min-width: 1400px) {
+            font-size: 1.1rem;
+       
+        } 
+        
         
     }
 
@@ -448,6 +464,10 @@
                 font-size: 1rem;
                
                 }
+        }
+        h4{
+            padding: 1rem;
+            font-size: 1.5rem;
         }
         }
 

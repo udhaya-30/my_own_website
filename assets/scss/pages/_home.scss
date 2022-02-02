@@ -102,7 +102,7 @@
 
     }
     
-    &--title{
+    &--tittle{
         font-size: 3rem;
         font-weight: 600;
 
@@ -139,6 +139,8 @@
         
             }
 
+            
+
 
     }
 
@@ -158,9 +160,12 @@
     &--subtitle{
         @media only screen and (max-width: 576px) {
             font-size: 0.7rem;
-       
-        } 
-    }
+        }
+            @media only screen and (max-width: 992px) {
+              font-size: 1rem;
+          } 
+        }
+    
     &--desc{
         margin-top: 2rem;
         font-size: 1.2rem;
