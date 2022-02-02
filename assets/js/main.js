@@ -52,10 +52,12 @@ button_2.addEventListener("click", (event) => {
 
 const navToggler = document.querySelector(".nav-toggler");
 const headermenu = document.querySelector("ul.header--menu");
+const navLinks = document.querySelectorAll(".header--menu>li>a");
 
 
-navToggler.addEventListener("click", () => {
+navToggler.addEventListener("click", changeMenuState);
 
+function changeMenuState(){
     const navIcon = document.querySelectorAll(".navIcon")
 
     // show menu programatically
@@ -65,9 +67,8 @@ navToggler.addEventListener("click", () => {
 
     navIcon.forEach(Icon => {
         Icon.classList.toggle("hidden")
-    })
-
-});
+    }); 
+}
 
 function navbarfixed() {
     const header_dom = document.querySelector(".header");
@@ -87,7 +88,7 @@ function navbarfixed() {
 }
 function setMenuActive() {
     const sections = document.querySelectorAll("section");
-    const navLinks = document.querySelectorAll(".header--menu__item>a");
+
 
     window.addEventListener("scroll", () => {
 
@@ -114,5 +115,12 @@ function setMenuActive() {
     })
 }
 
+function onMenuClick() {
+    for (let i = 0; i < navLinks.length; i++) {
+        navLinks[i].addEventListener("click", changeMenuState);
+    }
+}
+
 navbarfixed();
+onMenuClick();
 setMenuActive();
